@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:    username: root
+    password: 4444
+    url: jdbc:mysql://localhost:3306/oauth?autoreconnect = true
+    driver-class-name: com.mysql.jdbc.Driver
